@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- google-fonts s-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- google-fonts e-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="assets/css/stellarnav.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+</head>
+
+<body>
+    <div class="cursor"></div>
+
+    <header class="head p-3">
+        <div class="container">
+            <div class="nav-head d-flex justify-content-center align-items-center">
+                <div class="logo">
+                    <a href="https://karanjee03.github.io/Portfolio_KARAN/">
+                        <img src="assets/images/logo.png" alt="KARAN" width="auto" height="35" loading="eager">
+                    </a>
+                </div>
+                <div class="stellarnav">
+                    <ul>
+                        <li><a id="#home" href="#home">home</a></li>
+                        <li><a id="#about" href="#about">about</a></li>
+                        <li><a id="#contact" href="#contact">contact</a></li>
+                        <li>
+                            <!-- <a href="assets/docs/karan-latest-cv.pdf">CV</a> -->
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn " data-bs-toggle="modal"
+                                data-bs-target="#cvModal">
+                                CV
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Modal -->
+    <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content position-relative">
+                <button type="button" class="btn close-btn position-absolute d-flex justify-content-center align-items-center" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+                <iframe src="assets/docs/karan-latest-cv.pdf" id="cvFrame" frameborder="0"></iframe>
+                <button type="button" id="downloadBtn" class="btn position-absolute d-flex justify-content-center align-items-center" >
+                    <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section id="home" class="banner-sect-cvr">
+        <div class="container">
+            <div class="banner-sect">
+                <div class="row align-items-center">
+                    <div class="col-8">
+                        <div class="banner-text">
+                            <div class="heading">
+                                <h2>Karan</h2>
+                                <div class="text-effect">
+                                    <span class="text"></span><span class="last-letter"></span><span class="cursor1">
+                                        &nbsp;_</span>
+                                </div>
+                                <p>I am a passionate Frontend Developer focused on building clean, responsive, and
+                                    user-friendly websites. I enjoy turning ideas into interactive digital experiences
+                                    using modern web technologies. My goal is to create interfaces that are visually
+                                    appealing, fast, and easy to use.</p>
+                            </div>
+                            <div class="main">
+                                <div class="intro-boxes d-flex gap-2">
+                                    <div class="box d-flex flex-column justify-content-center align-items-center gap-1">
+                                        <div class="img">
+                                            <i class="fa-solid fa-code"></i>
+                                        </div>
+                                        <div class="main-text">
+                                            <p></p>
+                                        </div>
+                                        <div class="main-text">
+                                            <p>I build responsive and modern websites using HTML, CSS, Bootstrap,
+                                                JavaScript, and jQuery with clean and maintainable code.</p>
+                                        </div>
+                                    </div>
+                                    <div class="box d-flex flex-column justify-content-center align-items-center gap-1">
+                                        <div class="img">
+                                            <i class="fa-solid fa-user-graduate"></i>
+                                            <!-- <i class="fa-solid fa-graduation-cap"></i> -->
+                                        </div>
+                                        <div class="main-text">
+                                            <p>Constantly improving my skills by learning new frontend techniques,
+                                                animations, and best practices to stay up-to-date with web development.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="box d-flex flex-column justify-content-center align-items-center gap-1">
+                                        <div class="img">
+                                            <i class="fa-solid fa-laptop-code"></i>
+                                        </div>
+                                        <div class="main-text">
+                                            <p>Hands-on experience developing complete frontend websites with real-world
+                                                layouts, animations, and responsive designs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="img">
+                            <img src="assets/images/dev.webp" alt="Developer" class="img-fluid" width="500"
+                                loading="lazy">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-sect-cvr py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center wow fadeInUp">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="lead">I am a passionate Frontend Developer with expertise in creating responsive and
+                        user-friendly web applications.</p>
+                    <p>With a focus on modern technologies, I strive to deliver high-quality code that enhances user
+                        experience and meets business goals.</p>
+                    <p>My journey in web development has equipped me with skills in HTML5, CSS3, JavaScript, and various
+                        frameworks to bring ideas to life.</p>
+                    <div class="highlights mt-4">
+                        <span class="badge bg-primary me-2">2+ Years Experience</span>
+                        <span class="badge bg-primary me-2">Responsive Design Focus</span>
+                        <span class="badge bg-primary">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-sect-cvr py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center mb-5 wow fadeInUp">
+                    <h2 class="section-title">My Skills</h2>
+                    <p class="lead">Technologies and tools I work with</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="skill-card text-center p-4 h-100">
+                        <i class="fab fa-html5 fa-3x text-primary mb-3"></i>
+                        <h5>HTML5</h5>
+                        <p>Semantic markup and accessibility</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="skill-card text-center p-4 h-100">
+                        <i class="fab fa-css3-alt fa-3x text-primary mb-3"></i>
+                        <h5>CSS3</h5>
+                        <p>Styling and responsive design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="skill-card text-center p-4 h-100">
+                        <i class="fab fa-bootstrap fa-3x text-primary mb-3"></i>
+                        <h5>Bootstrap</h5>
+                        <p>Framework for rapid development</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="skill-card text-center p-4 h-100">
+                        <i class="fab fa-js-square fa-3x text-primary mb-3"></i>
+                        <h5>JavaScript</h5>
+                        <p>Interactive functionality</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="skill-card text-center p-4 h-100">
+                        <i class="fas fa-code fa-3x text-primary mb-3"></i>
+                        <h5>jQuery</h5>
+                        <p>DOM manipulation and effects</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="skill-card text-center p-4 h-100">
+                        <i class="fas fa-mobile-alt fa-3x text-primary mb-3"></i>
+                        <h5>Responsive Design</h5>
+                        <p>Mobile-first approach</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-sect-cvr py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 wow fadeInUp">
+                    <div class="text-center mb-5">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="lead">I'd love to hear from you. Send me a message!</p>
+                    </div>
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
+                                    required>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="your@email.com" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="5"
+                                    placeholder="Your message..." required></textarea>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Footer -->
+    <footer class="footer-sect wow fadeInUp">
+        <div class="container">
+            <div class="row g-4">
+                <!-- About Column -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about">
+                        <h3 class="footer-title">Karan</h3>
+                        <p class="footer-desc">Passionate Frontend Developer specializing in creating responsive,
+                            user-friendly web applications with modern technologies.</p>
+                        <p class="footer-desc">Committed to delivering high-quality code and exceptional user
+                            experiences.</p>
+                    </div>
+                </div>
+
+                <!-- Quick Links Column -->
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h4 class="footer-subtitle">Quick Links</h4>
+                        <ul class="footer-nav">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Contact Info Column -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h4 class="footer-subtitle">Get In Touch</h4>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:karanjee.1803@gmail.com">karanjee.1803@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <address>Lahore, PAKISTAN</address>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Social Links Column -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-social">
+                        <h4 class="footer-subtitle">Follow Me</h4>
+                        <div class="social-links">
+                            <a href="http://linkedin.com/in/karan-jee-50868b315" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://github.com/karanjee03" target="_blank" class="social-link">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="copyright">&copy; 2024 Karan. All rights reserved. | Designed with <i
+                                class="fas fa-heart text-primary"></i> by Karan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Js Start Here -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/stellarnav.min.js"></script>
+    <script src="assets/js/smoth-scrolling.js"></script>
+    <script src="assets/js/matchHeight-min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/svg.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Js Ends Here -->
+
+</body>
+
+</html>

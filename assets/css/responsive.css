@@ -1,0 +1,289 @@
+/* for Width Less than 1400px */
+@media (max-width: 1399.98px) {
+	.brq-banner-sect .brq-banner-form {
+		padding: 30px 0px 40px 10px;
+	}
+
+	.brq-banner-sect .brq-heading {
+		margin-bottom: 30px;
+	}
+
+	/* banner sect ----e */
+
+	/* About Section */
+	.about-sect-cvr {
+		padding: 80px 0;
+	}
+
+	.section-title {
+		font-size: 32px;
+	}
+
+	/* Skills Section */
+	.skill-card {
+		margin-bottom: 30px;
+	}
+
+	/* Contact Section */
+	.contact-sect-cvr {
+		padding: 80px 0;
+	}
+}
+
+/* for Width Less than 1200px */
+@media (max-width: 1199.98px) {
+	.banner-sect-cvr {
+		text-align: center;
+	}
+
+	.banner-sect-cvr .col-8 {
+		width: 100% !important;
+		justify-content: center;
+	}
+
+	.banner-sect-cvr .col-8 .main {
+		display: flex;
+		justify-content: center;
+	}
+
+	.banner-sect-cvr .col-4 {
+		width: 50% !important;
+		margin: auto;
+	}
+
+	.about-sect-cvr {
+		padding: 60px 0;
+	}
+
+	.skill-card {
+		margin-bottom: 25px;
+	}
+
+	.contact-sect-cvr {
+		padding: 60px 0;
+	}
+
+	.text-effect {
+		justify-content: center;
+	}
+
+	.banner-sect-cvr {
+		padding: 120px 0 40px;
+	}
+
+}
+
+/* for Width Less than 992px */
+@media (max-width: 991.98px) {
+	.about-sect-cvr {
+		padding: 50px 0;
+	}
+
+	.section-title {
+		font-size: 35px;
+	}
+
+	.skill-card {
+		margin-bottom: 20px;
+		padding: 20px;
+	}
+
+	.skill-card i {
+		font-size: 2.5rem;
+	}
+
+	.contact-sect-cvr {
+		padding: 50px 0;
+	}
+
+	.contact-form .col-md-6 {
+		margin-bottom: 15px;
+	}
+
+	.banner-sect-cvr .heading h2 {
+		font-size: 35px;
+	}
+
+	.text-effect span {
+		font-size: 20px;
+	}
+
+	.banner-sect-cvr .heading p {
+		font-size: 16px;
+	}
+
+	.footer-sect {
+		padding: 43px 0 40px;
+	}
+
+	.logo img {
+		width: 80px;
+		height: auto;
+	}
+
+	.head {
+		padding: 0 !important;
+	}
+}
+
+/* for Width Less than 768px */
+@media (max-width: 767.98px) {
+	.stellarnav.mobile .menu-toggle {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.banner-sect-cvr {
+		padding: 70px 0 40px;
+	}
+
+	.text-effect {
+		height: 35px;
+	}
+
+	.stellarnav>ul {
+		background-color: var(--bg-secondary-color) !important;
+		bottom: auto !important;
+		height: 100vh !important;
+		/* box-shadow: 0 0 10px var(--bg-primary-color); */
+		border-left: 1px solid var(--bg-primary-color);
+	}
+	.stellarnav .fa-bars{
+		color: aqua !important;
+	}
+
+	.stellarnav>ul>li>button,
+	.stellarnav>ul>li>a {
+		text-align: left !important;
+		width: 100%;
+	}
+
+	.stellarnav>ul>.close-menu span {
+		display: none !important;
+	}
+
+	.stellarnav>ul>.close-menu .fa-close {
+		color: aqua;
+	}
+
+	.about-sect-cvr {
+
+		padding: 40px 0;
+	}
+
+	.section-title {
+		font-size: 26px;
+	}
+
+	.skill-card {
+		margin-bottom: 15px;
+		padding: 15px;
+	}
+
+	.skill-card i {
+		font-size: 2rem;
+	}
+
+	.skill-card h5 {
+		font-size: 16px;
+	}
+
+	.contact-sect-cvr {
+		padding: 40px 0;
+	}
+
+	.contact-form .btn-primary {
+		width: 100%;
+		padding: 15px;
+	}
+}
+
+/* for Width Less than 577px */
+@media (max-width: 576.98px) {
+	.about-sect-cvr {
+		padding: 30px 0 !important;
+	}
+
+	.skills-sect-cvr {
+		padding: 20px 0 !important;
+	}
+
+	.intro-boxes {
+		flex-direction: column !important;
+		width: 100% !important;
+	}
+
+	.banner-sect-cvr .main .box {
+		max-width: 420px;
+	}
+
+	.section-title {
+		font-size: 24px;
+	}
+
+	.skill-card {
+		margin-bottom: 10px;
+		padding: 12px;
+	}
+
+	.skill-card i {
+		font-size: 1.8rem;
+	}
+
+	.skill-card h5 {
+		font-size: 14px;
+	}
+
+	.skill-card p {
+		font-size: 12px;
+	}
+
+	.contact-sect-cvr {
+		padding: 30px 0;
+	}
+
+	.contact-form .form-control {
+		padding: 10px;
+	}
+
+	.contact-form .btn-primary {
+		padding: 12px;
+	}
+}
+
+/* for Width Less than 420px */
+@media (max-width: 419.98px) {
+	.about-sect-cvr {
+		padding: 20px 0;
+	}
+
+	.section-title {
+		font-size: 22px;
+	}
+
+	.skill-card {
+		padding: 10px;
+	}
+
+	.skill-card i {
+		font-size: 1.5rem;
+	}
+
+	.skill-card h5 {
+		font-size: 13px;
+	}
+
+	.contact-sect-cvr {
+		padding: 20px 0;
+	}
+
+	.contact-form .form-control {
+		padding: 8px;
+	}
+
+	.contact-form .btn-primary {
+		padding: 10px;
+		font-size: 14px;
+	}
+}
